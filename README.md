@@ -1,11 +1,6 @@
 # Seasonality Plotter
 
-**Table of Contents**
-
-[TOCM]
-
-## Seasonalities
-
+### Seasonalities
 Many financial markets exhibit seasonalities (see [Rozeff and Kinney, 1976](http://https://www.sciencedirect.com/science/article/abs/pii/0304405X76900283 "Rozeff and Kinney, 1976")). 
 This script creates a plot of a seasonality of an asset using command line.
 
