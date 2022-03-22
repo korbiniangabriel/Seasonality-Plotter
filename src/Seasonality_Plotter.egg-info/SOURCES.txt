@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Seasonality_Plotter.egg-info/PKG-INFO
+src/Seasonality_Plotter.egg-info/SOURCES.txt
+src/Seasonality_Plotter.egg-info/dependency_links.txt
+src/Seasonality_Plotter.egg-info/top_level.txt
+src/seasonality plotter/__init__.py
+src/seasonality plotter/seasonality_plotter.py
