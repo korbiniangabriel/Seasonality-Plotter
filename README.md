@@ -4,6 +4,9 @@
 Many financial markets exhibit seasonalities (see [Rozeff and Kinney, 1976](http://https://www.sciencedirect.com/science/article/abs/pii/0304405X76900283 "Rozeff and Kinney, 1976")). 
 This script creates a plot of a seasonality of an asset using command line.
 
+### Description and usage:
+https://macrosummary.substack.com/p/the-seasonality-plotter?s=w
+
 ### Warning:
 This script does not account for any trading costs, nor does it clean the data for future roll. 
 The results and the backtest (in the function) gives only a rough estimate of the performance, but is not realistic.
