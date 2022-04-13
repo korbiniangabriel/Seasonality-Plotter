@@ -30,10 +30,6 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 import datetime as dt
 
-# Own modules
-from Utilities.utils import add_value_labels
-
-
 __author__ = 'Korbinian Gabriel'
 __copyright__ = 'Copyright 2022, seasonality plotter'
 __license__ = 'MIT'
@@ -153,10 +149,10 @@ class Seasonalities(object):
         
         # Set arrow
         if self.interval == '1mo':
-            ax[0].arrow(x = dt.date.today().month, y = -0.5, dx = 0, dy = 0, head_width=0.3, head_length=0.05, fc='r', ec='r')
+            ax[0].arrow(x = dt.date.today().month, y = -0.05, dx = 0, dy = 0, head_width=0.3, head_length=0.005, fc='r', ec='r')
             ax[1].arrow(x = dt.date.today().month, y = 0.05, dx = 0, dy = 0, head_width=0.3, head_length=0.05, fc='r', ec='r')
         if self.interval == '1wk':
-            ax[0].arrow(x = dt.date.today().isocalendar()[1], y = -0.2, dx = 0, dy = 0, head_width=0.3, head_length=0.02, fc='r', ec='r')
+            ax[0].arrow(x = dt.date.today().isocalendar()[1], y = -0.05, dx = 0, dy = 0, head_width=0.3, head_length=0.005, fc='r', ec='r')
             ax[1].arrow(x = dt.date.today().isocalendar()[1], y = 0.05, dx = 0, dy = 0, head_width=0.3, head_length=0.02, fc='r', ec='r')
         if self.interval == '1d':
             ax[0].arrow(x = dt.date.today().day, y = -0.05, dx = 0, dy = 0, head_width=0.3, head_length=0.005, fc='r', ec='r')
